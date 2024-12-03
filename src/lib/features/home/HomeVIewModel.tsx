@@ -29,6 +29,7 @@ const useHomeVM = () => {
     setData([]);
     setHasMore(true);
     const filteredData = Object.fromEntries(
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       Object.entries(values).filter(([_, value]) => value !== undefined)
     );
     setPage(1);
@@ -105,7 +106,7 @@ const useHomeVM = () => {
         })
         .catch(() => router.replace("/"));
     } else {
-      setLoading(false)
+      setLoading(false);
       router.replace("/");
     }
   }, []);

@@ -1,5 +1,5 @@
 "use client";
-import { Avatar, Divider, Flex, Image, List, Skeleton, Typography } from "antd";
+import { Avatar, Divider, Flex, List, Skeleton, Typography } from "antd";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { DataDto } from "../model/apiModel";
 import { Dispatch, SetStateAction } from "react";

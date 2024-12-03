@@ -1,4 +1,4 @@
-import { Avatar, Card, Flex, Skeleton, Spin, Tag, Typography } from "antd";
+import { Avatar, Card, Flex, Skeleton, Tag, Typography } from "antd";
 import React from "react";
 import { DataDto } from "../model/apiModel";
 import { HomeFilled } from "@ant-design/icons";
